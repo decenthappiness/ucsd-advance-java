@@ -1,5 +1,3 @@
-package com.makesrc.examples.io;
-
 /*
   Copyright (c) 2018 Kent Yang
 
@@ -16,7 +14,8 @@ package com.makesrc.examples.io;
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
   limitations under the License.
- */
+*/
+package com.makesrc.examples.io;
 
 import java.io.BufferedWriter;
 import java.io.DataOutputStream;
