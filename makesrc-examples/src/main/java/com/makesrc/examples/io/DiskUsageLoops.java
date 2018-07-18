@@ -31,6 +31,10 @@ import java.util.stream.Stream;
  * It uses a loop to iterate through the file system as oppose to recursion.  Loops offers the
  * best performance.
  *
+ * Run Unix Command: du -b -a -c to confirm.  The -b is used to denote size
+ * in bytes, -a is used to show all files (not just directories (default) and -c
+ * will show the total.
+ *
  * @author Kent Yang
  */
 public class DiskUsageLoops {

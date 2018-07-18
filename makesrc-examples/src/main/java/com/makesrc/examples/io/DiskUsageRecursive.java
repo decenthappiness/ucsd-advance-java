@@ -27,6 +27,10 @@ import java.util.List;
  * It uses recursion to naturally traverse the file system (tree structure)  The only concern with
  * loops is that for deeply nested trees there is a potential for stackoverflows.
  *
+ * Run Unix Command: du -b -a -c to confirm.  The -b is used to denote size
+ * in bytes, -a is used to show all files (not just directories (default) and -c
+ * will show the total.
+ *
  * @author Kent Yang
  */
 public class DiskUsageRecursive {
