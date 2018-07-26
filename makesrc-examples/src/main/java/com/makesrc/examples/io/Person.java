@@ -35,6 +35,16 @@ public class Person implements Serializable {
   private String email;
   private String phone;
 
+  public Person(String line) {
+    line = line.trim();
+    String[] array = line.split("[, ]+");
+    assert(array.length > 4);
+    this.firstName = array[0];
+    this.lastName = array[1];
+    this.email = array[2];
+    this.phone = array[3];
+  }
+
   public Person(String firstName, String lastName, String email, String phone) {
     this.firstName = firstName;
     this.lastName = lastName;
