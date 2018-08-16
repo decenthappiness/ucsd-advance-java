@@ -30,16 +30,16 @@ public class FibonacciCalc {
   }
 
   public static void main(String[] args) {
-    new Thread(() -> System.out.println("fibonacci(0)" + fibonacci(0))).run();
-    new Thread(() -> System.out.println("fibonacci(1)" + fibonacci(1))).run();
-    new Thread(() -> System.out.println("fibonacci(2)" + fibonacci(2))).run();
-    new Thread(() -> System.out.println("fibonacci(3)" + fibonacci(3))).run();
-    new Thread(() -> System.out.println("fibonacci(4)" + fibonacci(4))).run();
-    new Thread(() -> System.out.println("fibonacci(5)" + fibonacci(5))).run();
-    new Thread(() -> System.out.println("fibonacci(6)" + fibonacci(6))).run();
-    new Thread(() -> System.out.println("fibonacci(7)" + fibonacci(7))).run();
-    new Thread(() -> System.out.println("fibonacci(8)" + fibonacci(8))).run();
-    new Thread(() -> System.out.println("fibonacci(9)" + fibonacci(9))).run();
-    new Thread(() -> System.out.println("fibonacci(10)" + fibonacci(10))).run();
+    new Thread(() -> System.out.println("fibonacci(0)" + fibonacci(0))).start();
+    new Thread(() -> System.out.println("fibonacci(1)" + fibonacci(1))).start();
+    new Thread(() -> System.out.println("fibonacci(2)" + fibonacci(2))).start();
+    new Thread(() -> System.out.println("fibonacci(3)" + fibonacci(3))).start();
+    new Thread(() -> System.out.println("fibonacci(4)" + fibonacci(4))).start();
+    new Thread(() -> System.out.println("fibonacci(5)" + fibonacci(5))).start();
+    new Thread(() -> System.out.println("fibonacci(6)" + fibonacci(6))).start();
+    new Thread(() -> System.out.println("fibonacci(7)" + fibonacci(7))).start();
+    new Thread(() -> System.out.println("fibonacci(8)" + fibonacci(8))).start();
+    new Thread(() -> System.out.println("fibonacci(9)" + fibonacci(9))).start();
+    new Thread(() -> System.out.println("fibonacci(10)" + fibonacci(10))).start();
   }
 }
