@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: kenty
+Build-Jdk: 10.0.1
+Main-Class: com.makesrc.plugin.HelloPlugin
