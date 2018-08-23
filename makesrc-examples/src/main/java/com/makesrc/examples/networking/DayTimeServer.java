@@ -24,7 +24,8 @@ import java.net.Socket;
 import java.net.SocketTimeoutException;
 
 /**
- * TODO:
+ * Demonstrates how to implement a server/service that provide the DayTime service on port 13.
+ * Complete with shutdown to properly shutdown the service cleanly.
  *
  * @author Kent Yang
  */
